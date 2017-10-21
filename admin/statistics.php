@@ -8,26 +8,17 @@ db_connect();
 $date= date("Y-m-d");
     
 $query=mysql_query("SELECT * FROM visits WHERE date='$date'");
-
 $row=mysql_fetch_assoc($query);
-$q1= mysql_query("SELECT * FROM trips");
-  $numbOfTrips=mysql_num_rows($q1);  
-$q2=mysql_query("SELECT * FROM dreams");
-    $numbOfDreams=mysql_num_rows($q2);
+
 $q3=mysql_query("SELECT * FROM admins");
     $numbOfAdmins=mysql_num_rows($q3);
-$q4=mysql_query("SELECT * FROM users");
-    $numbOfUsers=mysql_num_rows($q4); 
-$q5=mysql_query("SELECT * FROM tour_order");
-    $numbOfDreamOrders=mysql_num_rows($q5); 
-$q6=mysql_query("SELECT * FROM dream_order");
-    $numbOfTripOrders=mysql_num_rows($q6);    
+   
     ?>
 <!DOCTYPE html>
 <html>
 <head>
    
-    <title>Admin</title>
+    <title>Статистика</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,28 +54,28 @@ $q6=mysql_query("SELECT * FROM dream_order");
                              <tbody>
                                 <tr>
                                     <th>Total number of users</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                  
                                 <tr>
                                     <th>Users online</th>
-                                    <th><?=$numbOfUsers;?></th>  <!--Допиши здесь число онлайн пользователей-->
+                                    <th> </th>  <!--Допиши здесь число онлайн пользователей-->
                                 </tr>
                                 <tr>
                                     <th>New users during month</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr> 
                                 <tr>
                                     <th>Deleted users during month</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                 <tr>
                                     <th>New users during the day</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                 <tr>
                                     <th>Deleted users during the day</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                              </tbody>
                             </table>
@@ -104,16 +95,16 @@ $q6=mysql_query("SELECT * FROM dream_order");
                              <tbody>
                                 <tr>
                                     <th>Total number of dreams</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                  
                                 <tr>
                                     <th>New dreams during month</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr> 
                                 <tr>
                                     <th>Deleted dreams during month</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                 
                              </tbody>
@@ -134,16 +125,16 @@ $q6=mysql_query("SELECT * FROM dream_order");
                              <tbody>
                                 <tr>
                                     <th>Total number of tours</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                  
                                 <tr>
                                     <th>New tours during month</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr> 
                                 <tr>
                                     <th>Deleted tours during month</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                 
                              </tbody>
@@ -164,12 +155,12 @@ $q6=mysql_query("SELECT * FROM dream_order");
                              <tbody>
                                 <tr>
                                     <th>Number of visitors during the day</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr>
                                  
                                 <tr>
                                     <th>Number of visitors during month</th>
-                                    <th><?=$numbOfUsers;?></th>
+                                    <th> </th>
                                 </tr> 
                                 
                              </tbody>
@@ -183,5 +174,9 @@ $q6=mysql_query("SELECT * FROM dream_order");
         </div>
 
     </div>
+
+    <?php  
+    include("../scripts/count.php");
+    ?>
 </body>
 </html>
