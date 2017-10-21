@@ -1,0 +1,91 @@
+.menuNav
+{
+    position: absolute;
+    top: 0px;
+    bottom:0;
+   margin-left: 50px;
+    
+    
+        
+}
+.menuNav ul li, .menuNav ul{
+	display: inline-block;
+  margin-left: 50px;       
+    font-size: 22px;
+    
+        
+}
+
+.unordered li
+{  
+    width:130px;          
+}
+
+
+.menuNav ul li
+{
+    margin-left: 0px;
+	padding:10px;
+    color:black;
+   
+}
+
+.menu ul ul 
+{
+    width:100px;
+}
+
+.menuNav ul >li:hover
+{
+	//background-color:#f96;
+}
+.menuNav ul ul >li:hover
+{
+	background-color:#69e;
+   
+}
+.menuNav ul
+{
+	position:relative;
+	margin:0;
+	padding:0;
+    
+	//background-color:#f63;
+}
+.menuNav ul ul{
+	display:none;
+	position:absolute;
+	background-color:#369;	
+	margin-top:10px;
+	margin-left:-10px;
+    z-index: 5;
+    
+}
+.menuNav ul ul a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.menuNav ul a
+{
+	color:black;
+	text-decoration:none;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    
+}
+
+.menuNav li:hover ul{
+	display: block;
+}
+
+.menuNav li:hover li{
+	display: block;
+}
+
+.inside li
+{
+    width:30px;
+    
+}

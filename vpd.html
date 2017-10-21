@@ -1,0 +1,86 @@
+<style>
+#window_show {
+	display: none; 
+	text-align: center;
+	overflow:hidden;
+	height: 720px;
+	margin-top: 70px;
+ // border-radius: 10px;
+	//  box-shadow: 0px 0px 39px -10px #000000;
+}
+ 
+
+#shpon
+{
+font-size: 4.8em;
+font-family: "Georgia", serif;
+font-weight: bold;
+
+}
+#shpon2
+{
+  font-size: 7.8em;
+  font-family: "Georgia";
+}
+#nad
+{
+  z-index: 2;
+  position: relative;
+  top:-780px;
+}
+.green a {
+	color: #fff;
+}
+</style>
+ 
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+ 
+<script type="text/javascript">
+
+ window.onload = function() {
+
+$('.carousel').carousel();
+ $('#window_show').fadeIn(1000,function(){
+
+ 
+ 	$('#gh').animate({
+        
+        opacity: '0.7',
+        top: '-50px',
+        left: '-50',
+    width:1650,
+    height:771,
+       
+		
+
+        
+    },4000);
+
+ 	$('.xz').fadeIn(2000);
+
+ });
+  };
+</script>
+ 
+  <div id='window_show' class="container-fluid">
+
+      <img src="images/15(cut).jpg"  id="gh" style="//max-width:1600px;position: relative; left: 0px; z-index: -1;">
+        <div class="col-lg-12" id="nad" style="width:100%;">
+           <img class="xz" src="images/logo(1).png" widht="200" height="200" style="display: none; margin-top: 80px;">
+            <h1 class="xz" id="shpon" style="display: none; padding: 10px;font-size: 4.8em; color:black;">Шпонированные </h1> 
+            <h1 class="xz" id="shpon2" style="padding: 10px;display: none;color:black;"> МДФ И ДСП ПАНЕЛИ</h1>
+
+     </div>   
+ </div> 
+<!--div id='window_show' class="container-fluid" style="border-radius: 10px; ">
+
+<img src="images/15(cut).jpg" id="gh" style="//max-width:1600px; position: absolute; left: 0px; z-index: -1;">
+                   
+                    <h1 class="xz" style="display: none; margin-top: 150px; color:black;  font-style: italic;">OOO &laquoYUGER&raquo</h1>
+                   <img class="xz" src="images/logo(1).png" widht="300" height="300" style="display: none;">
+                   <h1 class="xz" style="padding: 10px; margin-top: 0px; display: none;color:black;  font-style: italic;">
+                     Надежный партнер в реализации самых смелых и креативных решений!
+                   </h1>
+
+
+               </div-->    

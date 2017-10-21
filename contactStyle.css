@@ -1,0 +1,58 @@
+#map
+{
+    padding:30px;
+width:350px;
+    height:400px;
+}
+
+
+#rd
+{
+    padding-left: 100px;
+}
+
+#form_cont input[type=submit]
+{
+    margin-top: 3px;
+    margin-left: 50px;
+}
+#street
+{
+  font-size: 15px;  
+}
+
+#cont_contacts
+{
+    padding: 40px;
+}
+.cnt
+{
+    margin-left: 40px;
+    font-size: 15px;
+}
+#numbers
+{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#form_cont
+{
+    margin-top: 0px;
+    width: 280px;
+    height: 420px;
+    //border: 1px solid black;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.frm
+{
+    margin-bottom: 5px;
+    height: 35px;
+    width:90%;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

@@ -1,0 +1,159 @@
+/*.listNav a:hover{
+//background-color: #b2360b;
+background-color: red;
+color:black;
+//background-color:black;
+
+}*/
+
+.listNav a{
+
+	//color:black;
+  color:white;
+//padding:5px; 
+  font-size: 16px;
+  //font-family: "Times New Roman", serif;
+}
+
+#ma a
+{
+  //color:black;
+  color:white;
+    background-color: #b2360b;
+
+    border-radius: 5px;
+}
+#prod a:hover
+{
+  //color:black;
+  color:white;
+  background-color: #b2360b;
+  border-radius: 5px;
+}
+#adver a:hover
+{
+  //color:black;
+  color:white;
+  background-color: #b2360b;
+  border-radius: 5px;
+}
+#dsa a:hover
+{
+  //color:black;
+  color:white;
+  background-color: #b2360b;
+  border-radius: 5px;
+}
+
+#news a:hover
+{
+  //color:black;
+  color:white;
+  background-color: #b2360b;
+  border-radius: 5px;
+}
+
+#cont a:hover
+{
+  //color:black;
+  color:white;
+  background-color: #b2360b;
+  border-radius: 5px;
+}
+
+#hhh
+{
+	padding: 20px;
+ box-shadow: -2px -4px 24px -6px #000000 inset;
+
+}
+
+body{
+	//background-image: url("images/19.jpg");
+	background-repeat: no-repeat;
+}
+
+
+
+#logoHead{
+
+	//-webkit-box-reflect:below -1px  -webkit-gradient(linear, left top, left bottom, from(transparent),  
+		//color-stop(67%, transparent) , to(rgba(250, 250, 250, 0.5))); 
+	// box-shadow: 4px -4px 24px -6px #000000;
+}
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  //max-width: 300px;
+  width: 100%;
+  //height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  box-shadow: -2px 2px 18px -2px #000000;
+}
+
+#itemID
+{
+	text-decoration: none;
+	color:black;
+}
+
+/*a
+{
+  color: black;
+  text-decoration: none;
+}*/
+.c {
+    
+    height: 50px;
+    width: 120px;
+    display: inline-block;
+    padding:15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: black;
+    border-radius: 10px;
+    background-color: red; 
+    font-size: 16px;
+    text-align: center;
+  }
+   .c:hover {
+    text-decoration: none;
+    color: black;
+   }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+#cont1:hover .image {
+  opacity: 0.3;
+}
+
+#cont1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  text-align: center;
+}
+
+#cont1{
+	
+	padding: 20px;
+}
+
+/*About Us text*/
+#abtUs{
+  font-family: "Tahoma", serif;
+  line-height: 1.8em;
+  font-size: 18px;
+}

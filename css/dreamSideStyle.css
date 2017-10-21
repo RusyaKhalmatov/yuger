@@ -1,0 +1,42 @@
+#dreamBlock
+{
+    // position: relative: ;
+  //  width: 1170px;
+   // height: 500px;
+    background-color: chocolate;
+   // margin-left: 5%; 
+   // margin-right: 5%;
+   // margin-top:20px;
+   // min-width: 700px;
+    //padding-top:30px;
+}
+
+#dream
+{
+
+    width:auto;
+    height:200px;
+    background-color: yellow;
+   
+}
+
+#trip
+{
+    margin-top: 20px;
+      width:auto;
+    height:600px;
+    background-color:green;
+   
+    
+}
+
+#Dside
+{
+    margin-top: 30px;
+}
+
+.container1
+{
+    
+    max-width: 1000px;
+}

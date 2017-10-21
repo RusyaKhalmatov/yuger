@@ -1,0 +1,42 @@
+#news_head
+{
+	margin-left: 10%;
+}
+#nws
+{
+	//border:1px solid blue;
+	padding: 20px;
+}
+#nns
+{
+	border:1px solid blue;
+	margin-top: 0px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.zagol{
+	margin-top: 10px;
+	margin-left: 1.5%;
+	margin-bottom: 0px;
+}
+#imgnews{
+
+	max-width:300px;
+	height: 300px;
+	
+
+}
+
+#imgN
+{
+	//overflow: hidden;
+	padding: 20px;
+	padding-left: 30px;
+	padding-bottom: 0px;
+}
+.moreBut
+{
+	width:150px;
+	height: 50px;
+	border-radius: 10px;
+}
