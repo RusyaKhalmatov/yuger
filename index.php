@@ -16,42 +16,11 @@
 	</head>
 	
 	<body>
-		
-		
-			<!--Header-->
-        <!--div class="container-fluid" id="hhh">
-           <div class="row">
-              <div>
-                <div class="col-lg-3 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-offset-1 col-sm-2 hidden-xs">
-                    
-                    <img src="images/logo(1).png" class="img-rounded" id="logoHead" alt="logo" width="200" height="200">
-                    <img src="images/logo(1).png" class="img-rounded" id="mirrorLogo" alt="logo1" width="200" height="200">
-                </div>
-              </div>
-                
-               <div class="col-lg-5 col-lg-offset-0 col-xs-12 col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-2" style="text-align: center;">
-                    
-                    <div class="row">
-                      <h1>OOO "Yuger"</h1>
-                    </div>
-                   <h2 style="padding: 10px; margin-top: 0px;">
-                     Надежный партнер в реализации самых смелых и креативных решений!
-                   </h2>
-               </div>            
-           </div>    
-        </div-->
-      <!--End of Header-->
-
-     
-      
+	
 
       <!--Navigation-->
 			<?php require ("scripts/navigation.php");?>
-
-      <!--div class="container-fluid" id="image" style="margin-top: 0px;">
-        <div class="row"-->
-
-        
+     
         <?php include("vpd.html"); ?>
           
        
@@ -71,8 +40,6 @@
  
 
       <?php require ("scripts/slider.php");?>
-
-      <!--?php require ("scripts/dreamSide.php");?-->  
     
     <div class="container-fluid" style="margin-top: 20px;">
       <h2>Наша продукция</h2>
@@ -116,9 +83,6 @@
             </div>
 
         </div>
-        <!--О продукции-->
-        <?php //include("html/productInfo.html"); ?>
-        <!--Конец-->
       </div>
       
       
@@ -132,12 +96,9 @@
 		
 		
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
 		<script src="js/jquery.fittext.js"></script>
     <script type="text/javascript">
-        //$("#Contacts_info").fillText()
     $("#address").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
         $("#phone").fitText(6, { minFontSize: '15px', maxFontSize: '25px'});
         $("#mail").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
@@ -148,5 +109,7 @@
         $("#shpon2").fitText(1);
         </script>
 	</body>
-
+ <?php  
+    include("scripts/count.php");
+    ?>
 </html>

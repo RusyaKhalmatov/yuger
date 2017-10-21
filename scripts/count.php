@@ -1,6 +1,6 @@
 <?php
-/*require_once ("admin/database_connection.php");
-db_connect();*/
+require_once ("admin/database_connection.php");
+db_connect();
 
 date_default_timezone_set('UTC');
     $visitor_ip=$_SERVER["REMOTE_ADDR"];
