@@ -26,3 +26,5 @@
     </div>
   </div>
 </form>
+
+<script src="js/contactFormValid.js"></script>  <!--Contact form validation-->  
