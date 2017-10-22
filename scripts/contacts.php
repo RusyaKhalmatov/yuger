@@ -59,23 +59,17 @@
 			</div>
 			
         <?php require ("../html/footer.html");?>
-      
-			
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   
-        <script src="../js/jquery.fittext.js"></script>
+        <!--script src="../js/jquery.fittext.js"></script-->
        
         <script type="text/javascript">
-		$("#address").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
+		/*$("#address").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
         $("#phone").fitText(6, { minFontSize: '15px', maxFontSize: '25px'});
         $("#mail").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
         $("#telegram").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
         $("#gmail").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
-        $("#facebook").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
+        $("#facebook").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });*/
 	</script>
 
-<script src="../js/contactFormValid.js"></script>  <!--Contact form validation-->
        
 <script>
 function myMap() {
@@ -89,8 +83,9 @@ function myMap() {
 </script>	
 		
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAAXhRz3GXr2JbXvAHdvTqEnaIARdmVhI&callback=myMap"></script>     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../js/bootstrap.js"></script>
-      
+<script src="../js/contactFormValid.js"></script>  <!--Contact form validation-->      
 	</body>
 
 </html>

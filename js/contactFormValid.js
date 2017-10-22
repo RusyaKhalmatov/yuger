@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+alert("Hello");
 	var validName=false;
 	var validEmail = false;
 	var validPhone = false;
