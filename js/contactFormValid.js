@@ -42,7 +42,7 @@ $("#contactMessage").submit(function()
 	   	check_message();
 	   	check_phone();
 
-		if(validEmail==true && validName==true && validPhone==true && validText=true)
+		if(validEmail==true && validName==true && validPhone==true && validText==true)
 			{
 		    $("#contactMessage").unbind('submit');//разрешить передачу формы
         $.ajax({
@@ -131,7 +131,4 @@ $("#contactMessage").submit(function()
 			validText = true;
 		}
 	}	
-
-
-	
 });
