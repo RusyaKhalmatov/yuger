@@ -75,7 +75,7 @@
         $("#facebook").fitText(6, { minFontSize: '15px', maxFontSize: '25px' });
 	</script>
 
-			 <script src="../js/contactFormValid.js"></script>  <!--Contact form validation-->
+<script src="../js/contactFormValid.js"></script>  <!--Contact form validation-->
        
 <script>
 function myMap() {
@@ -88,12 +88,8 @@ function myMap() {
 }
 </script>	
 		
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAAXhRz3GXr2JbXvAHdvTqEnaIARdmVhI&callback=myMap"></script> </script>      
-      
-        
-		
-			
-    <script src="../js/bootstrap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAAXhRz3GXr2JbXvAHdvTqEnaIARdmVhI&callback=myMap"></script>     
+<script src="../js/bootstrap.js"></script>
       
 	</body>
 

@@ -1,4 +1,4 @@
-<form >
+<form id="contactMessage">
   <div class="form-group">
     <label class="col-form-label" for="email">Адрес эл. почты: </label>
     <input type="text" class="form-control" id="email" placeholder="Введите адрес эл. почты">
