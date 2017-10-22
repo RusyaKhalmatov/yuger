@@ -9,8 +9,5 @@ include("../database-connection.php");
     $message = trim($_POST['message']);
     mysql_query("INSERT INTO messages(email,name,phone_number,message) VALUES ('$email','$name','$phone','$message')");
 
-    echo $name;
-    echo "<br>";
-    echo $phone;
 
  ?>
