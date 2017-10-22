@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-alert("Hello");
-	var validName=false;
+
+	var validName = false;
 	var validEmail = false;
 	var validPhone = false;
 	var validText = false;
@@ -42,7 +42,8 @@ $("#contactMessage").submit(function()
 	   	check_message();
 	   	check_phone();
 
-		if(validEmail==true && validName==true && validPhone==true && validText=true)
+
+		if(validEmail==true && validName==true && validPhone==true && validText==true)
 			{
 		    $("#contactMessage").unbind('submit');//разрешить передачу формы
         $.ajax({
@@ -50,6 +51,7 @@ $("#contactMessage").submit(function()
             url: "controller/contactFormController.php",
             data: $(this).serialize()}).done(function(){
             alert("Письмо отправлено");
+           
         });
         return false;
         }
